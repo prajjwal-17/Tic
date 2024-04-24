@@ -29,10 +29,12 @@ int main() {
             cout << "Please enter a number for " << ((player == 1) ? player1Name : player2Name) << " (Player " << player << ")\n";
 
             while (true) {
-                if (!(cin >> input) || input < 1 || input > 9 || board[input] == 'X' || board[input] == 'O') {
+                if (!(cin >> input) || input < 1 || input > 9) {
                     cout << "Invalid input. Please enter a number between 1 and 9.\n";
                     cin.clear(); // Clear error flag
                     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard invalid input
+                } else if (board[input] == 'X' || board[input] == 'O') {
+                    cout << "Invalid input. Cell already marked. Please choose an empty cell.\n";
                 } else {
                     board[input] = mark;
                     printBoard();
@@ -109,6 +111,9 @@ int checkWin() {
         return 1;
     }
     if (board[4] == board[5] && board[5] == board[6]) {
+        return 1;
+    }
+    if (board[1] == board[2] && board[2] == board[3]) {
         return 1;
     }
 
