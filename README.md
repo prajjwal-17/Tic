@@ -21,6 +21,7 @@ This is a simple console-based Tic Tac Toe game implemented in C++. Players can 
 
 ## Build and Run
 
+1. Added for checking
 ```bash
 g++ -o tictactoe main.cpp
 ./tictactoe
