@@ -20,6 +20,7 @@ This is a simple console-based Tic Tac Toe game implemented in C++. Players can 
 7. Optionally, play again after the game ends. //this is a check added for git
 
 ## Build and Run
+2.This will cause intentional error
 
 1. Added for checking
 ```bash
