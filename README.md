@@ -21,8 +21,12 @@ This is a simple console-based Tic Tac Toe game implemented in C++. Players can 
 
 ## Build and Run
 2.This will cause intentional error
+
 error krva de bhai
 1. Added for checking
+
+error krva dia bhai
+
 ```bash
 g++ -o tictactoe main.cpp
 ./tictactoe
