@@ -138,4 +138,4 @@ void clearScreen() {
     // Assume Unix-like system
     system("clear");
 #endif
-}
+/usr/bin/bash: line 1: wq: command not found

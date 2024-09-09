@@ -17,7 +17,7 @@ This is a simple console-based Tic Tac Toe game implemented in C++. Players can 
 4. Enter the names of the players.
 5. Take turns placing 'X' or 'O' marks by entering a number corresponding to the cell on the board.
 6. Win the game by getting three marks in a row, column, or diagonal, or play until the board is full and the game ends in a draw.
-7. Optionally, play again after the game ends.
+7. Optionally, play again after the game ends. //this is a check added for git
 
 ## Build and Run
 
